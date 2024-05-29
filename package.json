@@ -2,7 +2,7 @@
   "private": true,
   "name": "yazan-ali-portfolio",
   "version": "0.1.0",
-  "homepage": "https://Yazan-Ali-01.github.io",
+  "homepage": "https://Yazan-Ali-01.github.io/portfolio",
   "scripts": {
     "build": "webpack --mode production",
     "predeploy": "npm run build",
