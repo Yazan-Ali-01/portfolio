@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
-    publicPath: '/home/',
+    publicPath: '/portfolio/',
     clean: true, // Clean the build folder before each build
   },
   module: {
