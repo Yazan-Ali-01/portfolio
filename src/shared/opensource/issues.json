@@ -1,0 +1,67 @@
+{
+  "closed": 2,
+  "data": [
+    {
+      "id": "I_kwDOKGcBRc6GZb9Q",
+      "closed": false,
+      "title": "Issue starting the project",
+      "createdAt": "2024-04-21T01:51:37Z",
+      "url": "https://github.com/blefnk/relivator/issues/30",
+      "number": 30,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "relivator",
+        "url": "https://github.com/blefnk/relivator",
+        "owner": {
+          "login": "blefnk",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/104720746?u=0d219f62ad6ffa2ce223b292474684d88c2b6dee&v=4",
+          "url": "https://github.com/blefnk"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOBxpGM856oBrf",
+      "closed": true,
+      "title": "Token not passed to session callback ",
+      "createdAt": "2023-12-27T12:24:16Z",
+      "url": "https://github.com/nextauthjs/next-auth/issues/9481",
+      "number": 9481,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "next-auth",
+        "url": "https://github.com/nextauthjs/next-auth",
+        "owner": {
+          "login": "nextauthjs",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/67470890?v=4",
+          "url": "https://github.com/nextauthjs"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOGsza9s5Wb6Yh",
+      "closed": true,
+      "title": "Admin",
+      "createdAt": "2022-11-15T17:47:11Z",
+      "url": "https://github.com/DeanShooster/NodeJS-BookStore/issues/1",
+      "number": 1,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "NodeJS-BookStore",
+        "url": "https://github.com/DeanShooster/NodeJS-BookStore",
+        "owner": {
+          "login": "DeanShooster",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/92792238?u=62aaf6ed94a7567986f61610a88cdc04633ff1af&v=4",
+          "url": "https://github.com/DeanShooster"
+        }
+      }
+    }
+  ],
+  "open": 1,
+  "totalCount": 3
+}
