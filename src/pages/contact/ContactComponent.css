@@ -42,11 +42,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .contact-heading-img-div img {
-  width: 400px; /* Fixed width */
-  height: 400px; /* Fixed height */
+  width: 500px; /* Fixed width */
+  height: 470px; /* Fixed height */
   border-radius: 50%; /* Make it a circle */
   object-fit: cover; /* Ensures the image covers the entire area without stretching */
   object-position: top;
