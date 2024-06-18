@@ -6,9 +6,10 @@ import { Accordion, Panel } from "baseui/accordion";
 class ExperienceAccordion extends Component {
   render() {
     const theme = this.props.theme;
+    const expandedKeys = this.props.sections.map(section => section.title); // Expand all panels by default
     return (
       <div className="experience-accord">
-        <Accordion>
+        <Accordion initialState={{ expanded: expandedKeys }}>
           {this.props.sections.map((section) => {
             return (
               <Panel
