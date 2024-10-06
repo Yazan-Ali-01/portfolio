@@ -465,7 +465,7 @@ const experience = {
           logo_path: "rc_logo.jpeg",
           duration: "Apr 2024 - Present",
           location: "Dubai,UAE",
-          description: "Led the creation and maintenance of scalable, high-performance codebases using Next.js 14 and React. Integrated React Query for efficient data fetching and state management, optimizing application performance and user experience.",
+          description: "Led the development and maintenance of scalable codebases using Next.js 14 and React, integrated React Query for efficient data fetching, transformed Figma designs into responsive applications, modernized legacy code with best practices, and mentored junior developers and interns to enhance their skills and productivity.",
           color: "#000000",
         },
         {
