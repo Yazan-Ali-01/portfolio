@@ -473,7 +473,7 @@ const experience = {
           company: "BeInMedia - Nmo AI.",
           company_url: "https://nmo.ai/",
           logo_path: "nmoai_logo.png",
-          duration: "Jul 2022 - Jan 2024",
+          duration: "Jul 2022 - Feb 2024",
           location: "Kuwait City,Kuwait",
           description:
             "Contributed to scalable full-stack solutions using React, Next.js, Node.js, Tailwind CSS, and DaisyUI, enhancing application robustness and user experience. Integrated ElasticSearch with Docker and Kubernetes, improving deployment and search functionality. Streamlined test case prioritization and developed automation tools, optimizing release quality and development efficiency.",
@@ -484,7 +484,7 @@ const experience = {
           company: "Osous Technology",
           company_url: "https://www.osoustech.com/",
           logo_path: "osous_logo.png",
-          duration: "Aug 2021 - June 2022",
+          duration: "Apr 2020 - June 2022",
           location: "Remote",
           description:
             "engineered user-friendly, responsive web interfaces using React, Material-UI, and Tailwind CSS, improving aesthetics and user interaction, which led to higher user engagement. I optimized React applications for maximum performance, scalability, and maintainability, ensuring seamless integration with backend systems to enhance overall system efficiency. Additionally, I diagnosed and resolved front-end issues, significantly enhancing user experience and solidifying application reliability and user satisfaction.",
@@ -495,7 +495,7 @@ const experience = {
           company: "Syrian Computer Society",
           company_url: "https://www.scs.org.sy/",
           logo_path: "scs_logo.png",
-          duration: "June 2020 - June 2021",
+          duration: "June 2019 - Apr 2020",
           location: "Latakia, Syria",
           description:
             "I taught and mentored students in various MERN stack courses and collaborated with other trainers to develop new training programs or improve existing ones. I provided individual feedback and support to students, aiming to empower them with the skills needed for the dynamic world of web development, ensuring they were well-versed in both traditional technologies and the latest advancements, including AI.",
