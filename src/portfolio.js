@@ -459,6 +459,16 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Software Developer",
+          company: "Royal Class Group",
+          company_url: "https://royalclass.group/",
+          logo_path: "rc_logo.jpeg",
+          duration: "Apr 2024 - Present",
+          location: "Dubai,UAE",
+          description: "Led the creation and maintenance of scalable, high-performance codebases using Next.js 14 and React. Integrated React Query for efficient data fetching and state management, optimizing application performance and user experience.",
+          color: "#000000",
+        },
+        {
           title: "Full-stack Developer ",
           company: "BeInMedia - Nmo AI.",
           company_url: "https://nmo.ai/",
@@ -621,7 +631,7 @@ const publications = {
     },
     {
       id: "osus-tech",
-      name: "Golden line company website",
+      name: "Golden line website",
       createdAt: "2022-09-19T00:00:00Z",
       description: "Golden Line Productions - a leading television production and distribution company. ",
       url: "https://goldenline-production.com/",
@@ -630,7 +640,7 @@ const publications = {
       id: "royal-class",
       name: "Royal Class Portfolio",
       createdAt: "2024-7-12T00:00:00Z",
-      description: "robust clean portfolio with a huge focus on SEO",
+      description: "Robust clean portfolio with a huge focus on SEO",
       url: "https://royalclass.group/",
     },
   ],
