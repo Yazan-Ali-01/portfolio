@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "As a MERN stack developer, I am able to leverage the power of React and Node.js to create dynamic, responsive web applications that are both user-friendly and scalable. With a focus on clean, efficient code, I am committed to delivering top-notch results to clients.",
   resumeLink:
-    "https://docs.google.com/document/d/1C9QymwC5gX83Wxe0wjwxH0TnFR7PDWar/view?usp=sharing",
+    "https://docs.google.com/document/d/1jnkeQFxjgcjnZMmpRCbOecLUYTJAjQjTyO3117bM3Kg/edit?tab=t.0",
   portfolio_repository: "https://github.com/Yazan-Ali-01",
   githubProfile: "https://github.com/Yazan-Ali-01",
 };
