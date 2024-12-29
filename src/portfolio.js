@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Yazan Ali",
   // nickname: "Mr.Z",
   subTitle:
-    "Dynamic Software Developer with years of experience in web technologies, excelling in frontend development. Proven ability to create and maintain high-performance applications using Next.js, TypeScript, and React, while implementing architectural best practices to enhance scalability and maintainability. Expert in transforming design concepts into user-centric solutions, optimising user experience through responsive design and efficient data handling. Committed to continuous improvement and innovation, leveraging a strong foundation in both frontend and backend development to deliver impactful software solutions.",
+    "Dynamic Software Developer with years of experience in web technologies, excelling in frontend development. Proven ability to create and maintain high-performance applications using Next.js, TypeScript, and React, while implementing architectural best practices to enhance scalability and maintainability.",
   resumeLink:
     "https://docs.google.com/document/d/1jnkeQFxjgcjnZMmpRCbOecLUYTJAjQjTyO3117bM3Kg/edit?tab=t.0",
   portfolio_repository: "https://github.com/Yazan-Ali-01",
@@ -206,45 +206,45 @@ const skills = {
       ],
     },
 
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -465,7 +465,8 @@ const experience = {
           logo_path: "rc_logo.jpeg",
           duration: "Apr 2024 - Present",
           location: "Dubai,UAE",
-          description: "Led the development and maintenance of scalable codebases using Next.js 14 and React, integrated React Query for efficient data fetching, transformed Figma designs into responsive applications, modernized legacy code with best practices, and mentored junior developers and interns to enhance their skills and productivity.",
+          description:
+            "Led the development and maintenance of scalable codebases using Next.js 14 and React, integrated React Query for efficient data fetching, transformed Figma designs into responsive applications, modernized legacy code with best practices, and mentored junior developers and interns to enhance their skills and productivity.",
           color: "#000000",
         },
         {
@@ -633,7 +634,8 @@ const publications = {
       id: "osus-tech",
       name: "Golden line website",
       createdAt: "2022-09-19T00:00:00Z",
-      description: "Golden Line Productions - a leading television production and distribution company. ",
+      description:
+        "Golden Line Productions - a leading television production and distribution company. ",
       url: "https://goldenline-production.com/",
     },
     {
