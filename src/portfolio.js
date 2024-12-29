@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Yazan's Portfolio",
   description:
-    "As a MERN stack developer, I am able to leverage the power of React and Node.js to create dynamic, responsive web applications that are both user-friendly and scalable. With a focus on clean, efficient code, I am committed to delivering top-notch results to clients.",
+    "Dynamic Software Developer with years of experience in web technologies, excelling in frontend development. Proven ability to create and maintain high-performance applications using Next.js, TypeScript, and React, while implementing architectural best practices to enhance scalability and maintainability. Expert in transforming design concepts into user-centric solutions, optimising user experience through responsive design and efficient data handling. Committed to continuous improvement and innovation, leveraging a strong foundation in both frontend and backend development to deliver impactful software solutions.",
   og: {
     title: "Yazan Ali Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Yazan Ali",
   // nickname: "Mr.Z",
   subTitle:
-    "As a MERN stack developer, I am able to leverage the power of React and Node.js to create dynamic, responsive web applications that are both user-friendly and scalable. With a focus on clean, efficient code, I am committed to delivering top-notch results to clients.",
+    "Dynamic Software Developer with years of experience in web technologies, excelling in frontend development. Proven ability to create and maintain high-performance applications using Next.js, TypeScript, and React, while implementing architectural best practices to enhance scalability and maintainability. Expert in transforming design concepts into user-centric solutions, optimising user experience through responsive design and efficient data handling. Committed to continuous improvement and innovation, leveraging a strong foundation in both frontend and backend development to deliver impactful software solutions.",
   resumeLink:
     "https://docs.google.com/document/d/1jnkeQFxjgcjnZMmpRCbOecLUYTJAjQjTyO3117bM3Kg/edit?tab=t.0",
   portfolio_repository: "https://github.com/Yazan-Ali-01",
