@@ -79,7 +79,7 @@ const MyName: React.FC<MyNameProps> = props => {
         }}
         className="mt-12"
       >
-        <a href={"/Yazan_Ali_Principal_Software_Engineer_CV.pdf"} target={"_blank"} rel="noreferrer">
+        <a href={"https://docs.google.com/document/d/1Vu-UNCsOvyGmK8TKMXs40EjPt0oOyJhUcAFRoKAWg7A/edit?usp=sharing"} target={"_blank"} rel="noreferrer">
           <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary transition-transform duration-300 ease-out resume-button-hover">
             Check out my resume!
           </button>
