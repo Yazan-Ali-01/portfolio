@@ -15,10 +15,10 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        Header: ["Lato", "sans-serif"],
-        Text2: ["Lato", "sans-serif"],
-        About: ["Playfair Display", "serif"],
-        Arimo: ["Arimo", "sans-serif"],
+        Header: ["var(--font-lato)", "Lato", "sans-serif"],
+        Text2: ["var(--font-lato)", "Lato", "sans-serif"],
+        About: ["var(--font-playfair)", "Playfair Display", "serif"],
+        Arimo: ["var(--font-arimo)", "Arimo", "sans-serif"],
       },
       colors: {
         AAprimary: "#0b192f",

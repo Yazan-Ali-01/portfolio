@@ -83,7 +83,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               <Img
                 src={"/img/yazan-avatar.png"}
                 className={"object-contain rounded-lg"}
-                alt="My Image Not Found"
+                alt="Yazan Ali Avatar"
               />
             </div>
           </div>
@@ -95,7 +95,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               <Img
                 src={"/img/yazan-avatar.png"}
                 className={"object-contain rounded-lg"}
-                alt="My Image Not Found"
+                alt="Yazan Ali Avatar"
               />
             </div>
             <div className="absolute w-48 h-full bg-AAsecondary opacity-10 md:opacity-60 rounded overflow-hidden"></div>

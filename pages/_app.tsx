@@ -1,6 +1,27 @@
 import "../styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Lato, Playfair_Display, Arimo } from 'next/font/google';
+
+// Configure fonts
+const lato = Lato({
+  weight: ['400', '900'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+const playfairDisplay = Playfair_Display({
+  weight: ['400', '600'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+const arimo = Arimo({
+  weight: ['400'],
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 import AppContext from "../components/AppContextFolder/AppContext";
 import { useRef, useState, useEffect } from "react";
@@ -75,11 +96,20 @@ function MyApp({ Component, pageProps }) {
     finishedLoading: false,
   });
   return (
-    <AppContext.Provider value={{ sharedState, setSharedState }}>
-      <SpeedInsights />
-      <Component {...pageProps} />
-      <Analytics />
-    </AppContext.Provider>
+    <div 
+      className={`${lato.className}`}
+      style={{
+        '--font-lato': lato.style.fontFamily,
+        '--font-playfair': playfairDisplay.style.fontFamily,
+        '--font-arimo': arimo.style.fontFamily,
+      } as React.CSSProperties}
+    >
+      <AppContext.Provider value={{ sharedState, setSharedState }}>
+        <SpeedInsights />
+        <Component {...pageProps} />
+        <Analytics />
+      </AppContext.Provider>
+    </div>
   );
 }
 
