@@ -19,8 +19,8 @@ const MyName: React.FC<MyNameProps> = props => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.4, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.4, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 4, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 4, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-AAsecondary font-mono"
       >
@@ -30,10 +30,10 @@ const MyName: React.FC<MyNameProps> = props => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.5, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.5, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 4, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 4, duration: props.finishedLoading ? 0 : 0.2 },
         }}
-        className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
+        className="text-gray-300 font-semibold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
         Yazan Ali.
       </motion.h1>
@@ -41,24 +41,24 @@ const MyName: React.FC<MyNameProps> = props => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.6, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 4.5, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 4.5, duration: props.finishedLoading ? 0 : 0.2 },
         }}
-        className="text-gray-400 font-bold text-xl lg:text-4xl sm:text-2xl md:text-3xl mt-4"
+        className="text-gray-400 font-semibold text-xl lg:text-4xl sm:text-2xl md:text-3xl mt-4"
       >
-       Impact isn’t the goal, it’s the standard.
+       Impact isn&apos;t the goal, it&apos;s the standard.
       </motion.h2>
 
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 4.9, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 4.9, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I care deeply about building things that <span className="text-AAsecondary keyword-hover">matter</span>, products that make a real{" "}
+       I care deeply about building things that <span className="text-AAsecondary keyword-hover">matter</span>, products that make a real{" "}
         <span className="text-AAsecondary keyword-hover">impact</span>, backed by <span className="text-AAsecondary keyword-hover">data</span> and shaped with{" "}
         <span className="text-AAsecondary keyword-hover">purpose</span>.
         <br className="3xl:block hidden" /> I move fast, take calculated <span className="text-AAsecondary keyword-hover">risks</span>, and stay{" "}
@@ -69,13 +69,14 @@ const MyName: React.FC<MyNameProps> = props => {
         <span className="text-AAsecondary keyword-hover">curious</span>. I need to believe in what I&apos;m building, and when I do, I give it everything—whether it&apos;s solving hard{" "}
         <span className="text-AAsecondary keyword-hover">technical problems</span>, <span className="text-AAsecondary keyword-hover">scaling systems</span>, or rallying a team around a{" "}
         <span className="text-AAsecondary keyword-hover">challenge</span> worth chasing.
+   
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
+          opacity: { delay: props.finishedLoading ? 0 : 4, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 4, duration: props.finishedLoading ? 0 : 0.2 },
         }}
         className="mt-12"
       >

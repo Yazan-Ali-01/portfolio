@@ -87,18 +87,18 @@ export default function Home() {
     }
     setTimeout(() => {
       setShowElement(true);
-    }, 4500);
+    }, 2000); // Reduced from 4500ms to 2000ms
 
     setTimeout(() => {
       setShowThisCantBeReached(false);
-    }, 5400);
+    }, 2500); // Reduced from 5400ms to 2500ms
     // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
     setTimeout(() => {
       setShowElement(false);
       setShowMe(true);
       context.sharedState.finishedLoading = true;
       context.setSharedState(context.sharedState);
-    }, 10400);
+    }, 4000); // Reduced from 10400ms to 4000ms
   }, [context, context.sharedState]);
 
   useEffect(() => {

@@ -17,7 +17,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.4,
+          delay: props.finishedLoading ? 0 : 4.5
         }}
         className=" text-AAsecondary"
        
@@ -38,7 +38,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.7,
+          delay: props.finishedLoading ? 0 :  4.7,
         }}
         className="text-AAsecondary"
        
@@ -82,7 +82,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 10,
+          delay: props.finishedLoading ? 0 : 4.9,
         }}
         className="text-AAsecondary"
       >
@@ -103,7 +103,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 10.2,
+          delay: props.finishedLoading ? 0 : 5.1,
         }}
         // onClick={()=>{router.push("/resume.pdf")}}
         className="text-AAsecondary border border-spacing-2 py-2 px-3 rounded-sm border-AAsecondary hover:bg-ResumeButtonHover"
