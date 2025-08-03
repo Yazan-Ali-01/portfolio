@@ -33,10 +33,10 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
             Built by Yazan Ali
           </span>
 
-          <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
+          {/* <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
             <GithubIcon className={"w-4 h-4 text-gray-400 fill-current group-hover:text-AAsecondary"} />
             <span className="">Source code - Github</span>
-          </span>
+          </span> */}
         </div>
       </a>
     </div>

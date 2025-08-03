@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Block access to API routes (except sitemap)
+Disallow: /api/*
+Allow: /api/sitemap.xml
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Optional: Block specific paths if needed
+# Disallow: /private/
+# Disallow: /admin/ 
