@@ -1,6 +1,4 @@
 // components/MetaTags.js
-import Head from "next/head";
-
 export default function MetaTags({
                                      title = "My Website",
                                      description = "Welcome to my portfolio",
@@ -8,7 +6,7 @@ export default function MetaTags({
                                      url = "https://www.yazan-ali.net",
                                  }) {
     return (
-        <Head>
+        <>
             <title>{title}</title>
             <meta name="description" content={description} />
 
@@ -24,6 +22,6 @@ export default function MetaTags({
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={image} />
-        </Head>
+        </>
     );
 }
