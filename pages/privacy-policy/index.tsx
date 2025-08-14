@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">2. Portfolio and Projects</h2>
             <p className="text-gray-700 mb-4">
-              The website <a href="https://yazan-ali.net" className="text-blue-600 hover:text-blue-800 transition duration-300">yazan-ali.net</a> serves as my personal portfolio where I share my resume and software projects.
+              The website <a href="https://www.yazan-ali.net" className="text-blue-600 hover:text-blue-800 transition duration-300">yazan-ali.net</a> serves as my personal portfolio where I share my resume and software projects.
             </p>
             <p className="text-gray-700">
               One of the projects demonstrates, for educational purposes, what websites can collect about users. This project does not collect data unless the user explicitly interacts with it to learn more about data collection practices.

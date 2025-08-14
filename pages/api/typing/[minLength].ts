@@ -59,7 +59,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const response = await fetch(apiUrl.toString(), {
       signal: controller.signal,
       headers: {
-        "User-Agent": "YourApp/1.0 (+https://yazan-ali.net)",
+        "User-Agent": "YourApp/1.0 (+https://www.yazan-ali.net)",
         Accept: "application/json",
       },
     });
