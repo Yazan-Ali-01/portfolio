@@ -22,6 +22,10 @@ export default function MetaTags({
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={image} />
+
+            <meta name="author" content="Yazan Ali" />
+            <meta name="date" content="2025-08-02" />
+
         </>
     );
 }
